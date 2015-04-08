@@ -7,4 +7,5 @@
     <string name="apple">Apple</string>
     <string name="orange">Orange</string>
     <string name="grapes">Grapes</string>
+    <string name="quantity_text">Quantity</string>
 </resources>

@@ -38,17 +38,19 @@
             android:text="@string/grapes"
             android:onClick="selectFruit"
         />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Quantity"
-            android:textAppearance="?android:textAppearanceLarge"
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/result_text"/>
     </RadioGroup>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></LinearLayout>
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+     <TextView
+        android:text="@string/quantity_text"
+        android:layout_height="wrap_content"
+         android:layout_width="wrap_content"/>
+    </LinearLayout>
+
+
 
 </LinearLayout>
